@@ -1,45 +1,3 @@
-# BLENDED_LEARNING
-# Implementation-of-Linear-and-Polynomial-Regression-Models-for-Predicting-Car-Prices
-
-## AIM:
-To write a program to predict car prices using Linear Regression and Polynomial Regression models.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-1. **Data Collection**:  
-   - Import essential libraries like pandas, numpy, sklearn, matplotlib, and seaborn.  
-   - Load the dataset using `pandas.read_csv()`.
-
-2. **Data Preprocessing**:  
-   - Address any missing values in the dataset.  
-   - Select key features for training the models.  
-   - Split the dataset into training and testing sets with `train_test_split()`.
-
-3. **Linear Regression**:  
-   - Initialize the Linear Regression model from sklearn.  
-   - Train the model on the training data using `.fit()`.  
-   - Make predictions on the test data using `.predict()`.  
-   - Evaluate model performance with metrics such as Mean Squared Error (MSE) and the R² score.
-
-4. **Polynomial Regression**:  
-   - Use `PolynomialFeatures` from sklearn to create polynomial features.  
-   - Fit a Linear Regression model to the transformed polynomial features.  
-   - Make predictions and evaluate performance similar to the linear regression model.
-
-5. **Visualization**:  
-   - Plot the regression lines for both Linear and Polynomial models.  
-   - Visualize residuals to assess model performance.
-
-## Program:
-```py
-/*
-Program to implement Linear and Polynomial Regression models for predicting car prices.
-Developed by: MOHAMMED SAAJID S
-RegisterNumber: 212223240093
-*/
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -120,20 +78,3 @@ plt.xlabel('Engine Size')
 plt.ylabel('Price')
 plt.legend()
 plt.show()
-
-
-
-```
-
-## Output:
-
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-3.png)
-
-
-
-## Result:
-Thus, the program to implement Linear and Polynomial Regression models for predicting car prices was written and verified using Python programming.
